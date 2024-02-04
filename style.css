@@ -25,19 +25,20 @@ body{
     text-align: center;
     cursor: pointer;
 }
-.butonDa{
-    all:unset;
+.butonDa {
+    all: unset;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: green;
     color: white;
-    aspect-ratio: 10/7;
+    aspect-ratio: 10 / 7;
     min-width: 10em;
-    height:7em;
-    border:1px solid black;
+    height: auto;
+    border: 1px solid black;
     border-radius: 1em;
     text-align: center;
     cursor: pointer;
-    vertical-align: middle;
+    padding: 0;
+    box-sizing: border-box;
 }
