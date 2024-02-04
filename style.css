@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.img{
+    max-width: 20%;
+    margin-bottom: 2em;
+}
+.butoane{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.butonNu{
+    all:unset;
+    background-color: red;
+    color: white;
+    min-width: 10em;
+    height:7em;
+    border:1px solid black;
+    border-radius: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+.butonDa{
+    all:unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: white;
+    min-width: 10em;
+    height:7em;
+    border:1px solid black;
+    border-radius: 1em;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+}
